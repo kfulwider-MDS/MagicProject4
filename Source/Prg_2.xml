@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Sample Program" ISN_2="1" LastIsn="1" id="2">
-          <LastModified _date="739271" _time="32374" date="01/20/2025" time="08:59:34"/>
+        <Header Description="Sample Batch Program" ISN_2="1" LastIsn="1" id="2">
+          <LastModified _date="739271" _time="32577" date="01/20/2025" time="09:02:57"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -115,7 +115,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Sample Program"/>
+              <FormName id="311" valUnicode="Sample Batch Program"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

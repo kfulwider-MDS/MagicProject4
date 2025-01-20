@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="3">
+        <Header Description="Sample Online Program" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="3">
           <LastModified date="00/00/0000" time="00:00:00"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -36,7 +36,7 @@
           <Key>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -115,7 +115,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="Sample Online Program"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
