@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="New program for bpid 5155" ISN_2="1" LastIsn="1" id="67108868">
-          <LastModified _date="739273" _time="28394" date="01/22/2025" time="07:53:14"/>
+          <LastModified _date="739273" _time="30109" date="01/22/2025" time="08:21:49"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -29,16 +29,25 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="2"/>
         <Resource>
           <Columns>
             <Column id="67108865" name="Name">
               <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="50"/>
+                <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="100663297"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="50"/>
-                <_Flip id="194"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="100663298" name="PhoneNumber">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="100663299"/>
+                <StoredAs id="173" val="1"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
               </PropertyList>
             </Column>
           </Columns>
@@ -126,6 +135,19 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="100663298" FlowIsn="100663300" id="100663298">
+                  <Column val="100663298"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
