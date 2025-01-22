@@ -13,8 +13,8 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Sample Online Program" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="3">
-          <LastModified date="00/00/0000" time="00:00:00"/>
+        <Header Description="Sample Online Program" ISN_2="1" LastIsn="1" id="3">
+          <LastModified _date="739273" _time="24716" date="01/22/2025" time="06:51:56"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -48,7 +48,7 @@
           <Range Direction="A"/>
           <VarRange/>
           <TaskProperties>
-            <SelectionTable val="N"/>
+            <SelectionTable val="Y"/>
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
             <ErrorStrategy val="R"/>
